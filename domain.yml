@@ -1,0 +1,36 @@
+version: "3.1"
+
+intents:
+  - greet
+  - search_flights
+  - search_hotels
+  - search_restaurants
+  - restaurant_address
+  - best_restaurant
+  - purchase_flight
+  - reserve_hotel
+  - reserve_restaurant
+  - trip_plan
+  - goodbye
+
+responses:
+
+  utter_greet:
+    - text: "Welcome to WindyCityTrip AI Assistant!"
+
+  utter_goodbye:
+    - text: "Goodbye and enjoy your trip to Chicago!"
+
+actions:
+  - action_search_flights
+  - action_search_hotels
+  - action_search_restaurants
+  - action_restaurant_address
+  - action_purchase_flight
+  - action_reserve_hotel
+  - action_reserve_restaurant
+  - action_trip_plan
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

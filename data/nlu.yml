@@ -1,0 +1,77 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+
+- intent: search_flights
+  examples: |
+    - show me available airlines to travel to Chicago
+    - find flights to Chicago
+    - available flights to Chicago
+    - airlines flying to Chicago
+    - show flights from Miami to Chicago
+
+- intent: search_hotels
+  examples: |
+    - show me hotels near Ohare airport
+    - hotels in downtown Chicago
+    - available hotels downtown
+    - find hotels by the airport
+    - show me hotels in Chicago
+
+- intent: search_restaurants
+  examples: |
+    - show me Italian restaurants in downtown area
+    - pizza places in downtown Chicago
+    - list steakhouses in downtown area
+    - restaurants in Greek town
+    - show restaurants in Chicago
+
+- intent: restaurant_address
+  examples: |
+    - give me the address of Fogo de Chao
+    - where is Gibsons Steakhouse located
+    - what is the address of Lou Malnatis
+
+- intent: best_restaurant
+  examples: |
+    - what is the best steakhouse on Rush Street
+    - best pizza place downtown
+    - top steakhouse in Chicago
+
+- intent: purchase_flight
+  examples: |
+    - purchase airline tickets for 3 people
+    - buy airline tickets
+    - reserve flights for my group
+
+- intent: reserve_hotel
+  examples: |
+    - reserve hotel for a group of 3
+    - book hotel rooms
+    - reserve downtown hotel
+
+- intent: reserve_restaurant
+  examples: |
+    - reserve dinner for 3 at Gibsons Steakhouse
+    - make dinner reservations
+    - book a table for tonight
+
+- intent: trip_plan
+  examples: |
+    - recommend a trip plan for my business trip to Chicago next week
+    - help me plan my Chicago trip
+    - build me a Chicago travel itinerary
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - see you later

@@ -1,0 +1,10 @@
+version: "3.1"
+
+stories:
+
+- story: test payment
+  steps:
+    - user: |
+        I want to pay my bill
+      intent: pay_bill
+    - action: action_process_bill_payment

@@ -1,0 +1,43 @@
+version: "3.1"
+
+stories:
+
+- story: search flights
+  steps:
+  - intent: search_flights
+  - action: action_search_flights
+
+- story: search hotels
+  steps:
+  - intent: search_hotels
+  - action: action_search_hotels
+
+- story: search restaurants
+  steps:
+  - intent: search_restaurants
+  - action: action_search_restaurants
+
+- story: get restaurant address
+  steps:
+  - intent: restaurant_address
+  - action: action_restaurant_address
+
+- story: purchase tickets
+  steps:
+  - intent: purchase_flight
+  - action: action_purchase_flight
+
+- story: reserve hotel
+  steps:
+  - intent: reserve_hotel
+  - action: action_reserve_hotel
+
+- story: reserve restaurant
+  steps:
+  - intent: reserve_restaurant
+  - action: action_reserve_restaurant
+
+- story: business trip plan
+  steps:
+  - intent: trip_plan
+  - action: action_trip_plan
